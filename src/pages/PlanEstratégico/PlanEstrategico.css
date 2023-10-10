@@ -1,0 +1,110 @@
+.PlanEstrategico {
+    width: 100%;
+}
+
+.descripcion__plan__estrategico {
+    background-image: url('../../assets/image\ 10.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-size: cover;
+}
+
+.descripcion__texto {
+    background-color: rgba(232, 125, 145, 0.411);
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 60px 90px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container__foda {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 226, 236);
+}
+
+.FODA {
+    width: 100%;
+    max-width: 450px;
+}
+
+.container__vision {
+    width: 100%;
+    background-color: rgb(181, 218, 237);
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vision__texto {
+    width: 50%;
+}
+
+.vision__icono {
+    width: 20%;
+}
+
+.container__mision {
+    width: 100%;
+    background-color: rgba(232, 125, 145, 0.411);
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__objE {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    padding: 0 0 40px 100px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cajas_obj {
+    border-radius: 10px;
+    background: #F3BCC6;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.cajas__numeros{
+    font-size:90px;
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Rozha One';
+    color: rgb(4, 92, 122);
+}
+
+.cajas__texto{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+}

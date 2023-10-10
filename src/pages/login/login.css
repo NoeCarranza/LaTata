@@ -1,0 +1,8 @@
+.contenedor-login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    padding: 40px;
+}
+

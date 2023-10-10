@@ -1,0 +1,78 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.descripcion{
+
+    margin-left: 40px;
+    max-width: 800px;
+}
+
+.quienes_somos, .mision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(181, 218, 237);
+}
+
+.img_texto{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgba(232, 125, 145, 0.59);
+    padding: 40px;
+    gap: 60px;
+}
+
+
+.section-img-texto{
+    max-width: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(232, 125, 145, 0.59);
+}
+
+.valores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(243, 187, 148);
+}
+.valores-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.valores1, .valores2{
+    width: 330px;
+}
+

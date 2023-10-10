@@ -1,0 +1,77 @@
+Button{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.MuiTextField-root{
+    background-color: rgba(255, 250, 240, 0.381);
+    border-radius: 10px;
+    border-color: none;
+}
+
+
+.container_footer{
+    background-color: #E87D91;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.titulo{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 3rem;
+}
+
+.titulo-2{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    align-self: center;
+}
+
+.subtitulo{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.img-footer{
+    width: 350px;
+    align-self: center;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones_redes{
+    display: flex;
+    gap: 20px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.diseñado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.firma{
+    width: 80px;
+}

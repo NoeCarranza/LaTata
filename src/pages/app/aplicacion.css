@@ -1,0 +1,25 @@
+.container-app{
+    background-color: rgb(181, 218, 237);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.app{
+    margin: 0;
+    padding: 80px;
+    max-width: 800px;
+}
+
+.botones-store{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+}
+.img-celus{
+    width: 650px;
+}

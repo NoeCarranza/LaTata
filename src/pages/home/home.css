@@ -1,0 +1,65 @@
+.contenedor_menu{
+    background-image: url("../../assets/background1-1.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-size:cover;
+
+}
+.contenedor_tata{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(232, 125, 145);
+    width: 100%;
+    max-width: 420px;
+    height: 400px;
+    margin: 40px 0 40px 100px;
+    padding: 20px;
+}
+.LaTata{
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 700;
+    font-size: 118px;
+    padding: 0;
+    margin: 0;
+    }
+
+.slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.section_2{
+    background: rgb(10, 101, 146);
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.contenedor_qr{
+    background-color: rgba(232, 125, 145, 0.89);
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.qr{
+    width: 150px;
+    align-self: center;
+    border-radius: 20px;
+}
