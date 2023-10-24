@@ -26,8 +26,6 @@ function App() {
         <Route path="/tarifas" element={<Precios />} />
         <Route path="/aplicacion" element={<Aplicacion />} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/plandenegocios" element={<PlanDeNegocios/>}/>
-        <Route path="/planestrategico" element={<PlanEstrategico/>}/>
       </Routes>
       <Footer />
     </Router>
