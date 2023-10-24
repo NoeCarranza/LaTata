@@ -30,22 +30,25 @@ a{
   }
 
 
-.menu{
-    background-color: rgb(4, 92, 122);
+  .menu-toolbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
     align-items: center;
-    padding: 12px;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
     width: 100%;
-}
-
-.logo{
-    width: 50px;
+    gap: 60px;
+    height: 50px;
+    background-color: rgb(4, 92, 122);
+  }
+  
+  .logo {
+    width: 45px;
     height: auto;
     cursor: pointer;
-}
+    display: block; /* Añadido */
+    margin: 0 auto; /* Añadido */
+  }
 
 
 .MuiButton-root{
