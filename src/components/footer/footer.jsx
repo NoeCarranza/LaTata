@@ -7,12 +7,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Button } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import firma from '../../assets/firma.png'
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
         <div className="container_footer">
             <div>
-                <img src={logo_nin} alt="logo tata" className="img-footer"></img>
+                <Link to='/'><img src={logo_nin} alt="logo tata" className="img-footer"></img></Link>
             </div>
             <div className="redes">
                 <h1 className="titulo">Seguinos en:</h1>
