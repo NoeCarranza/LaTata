@@ -12,11 +12,10 @@ function Home() {
                         <h2 className="slogan">Calidad que abraza,</h2>
                         <h2 className="slogan">Cuidamos lo que más amas</h2>
                     </div>
-
                 </div>
             </div>
             <div className="section_2">
-                <div>
+                <div className="section2_texto">
                 <h2 className="titulo" style={{margin:'0', color:'white',}}>Con la app todo es más fácil</h2>
                 <h2 className="slogan" style={{color:'white',}}>Escaneá el QR y descarga nuestra app acá</h2>
                 </div>

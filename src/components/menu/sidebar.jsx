@@ -24,6 +24,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import "../menu/menu.css";
 
 
+
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -139,22 +140,25 @@ function MiniDrawer() {
           </Link>
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open}>
+      <Drawer variant="permanent" open={open} sx={{width:'40%'}}>
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <List>
+        <List sx={{ display: 'block', padding:'0'}}>
   {ListaItems.map((item, index) => (
-    <ListItem key={item.text} disablePadding sx={{ display: 'block' }}>
-      <Link to={item.path} style={{ textDecoration: 'none', color: 'inherit' }}>
+    <ListItem key={item.text} disablePadding>
+      <Link to={item.path} style={{ textDecoration: 'none', color: 'inherit'}}>
         <ListItemButton
           sx={{
-            minHeight: 48,
+            minHeight: 100,
             justifyContent: open ? 'initial' : 'center',
+            textAlign:'start',
             px: 2.5,
+            width:'250px'
+
           }}
         >
           <ListItemIcon

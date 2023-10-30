@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <div className="container_footer">
-            <div>
+            <div className="contenedor_imagen">
                 <Link to='/'><img src={logo_nin} alt="logo tata" className="img-footer"></img></Link>
             </div>
-            <div className="redes">
+            <div className="redes_sociales">
                 <h1 className="titulo">Seguinos en:</h1>
                 <div className="botones_redes">
-                    <Button variant="contained" sx={{
+                    <Button variant="contained" clasname='btn_redes'sx={{
                         backgroundColor: 'white',
                         color: 'black',
                         width: '70px',
