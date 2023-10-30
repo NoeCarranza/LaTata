@@ -35,7 +35,7 @@ function Postularse() {
             </div>
             <div className="postularse">
                 <h1 className="titulo-2">Postularse:</h1>
-                <h2 className="subtitulo_postularse">Si creés que ténes todos los requisitos y querés trabajar para nosotros mandanos tu CV con el asunto: "Babysitter con tu nombre" al mail latata@postulaciones.com.</h2>
+                <h2 className="subtitulo_postularse">Si creés que ténes todos los requisitos y querés trabajar para nosotros mandanos tu CV con el asunto: "Babysitter con tu nombre" al mail latata@postulaciones.com</h2>
                 <p style={{fontSize: '16px', fontWeight: '300', paddingTop: '5px', margin: '0',}}>Si tenés alguna duda podés enviarnos un mensaje en el formulario debajo.</p>
             </div>
 

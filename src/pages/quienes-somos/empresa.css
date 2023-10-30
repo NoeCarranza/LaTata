@@ -9,12 +9,12 @@ p{
     max-width: 800px;
 }
 
-.quienes_somos, .mision{
+.quienes_somos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 100px 0 40px 0;
     text-align: center;
     background-color: rgb(181, 218, 237);
 }
@@ -26,7 +26,7 @@ p{
     justify-items: center;
     justify-content: center;
     background-color: rgba(232, 125, 145, 0.59);
-    padding: 40px;
+    padding: 60px 0;
     gap: 60px;
 }
 
@@ -76,3 +76,12 @@ p{
     width: 330px;
 }
 
+.mision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(181, 218, 237);
+}

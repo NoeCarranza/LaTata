@@ -3,7 +3,7 @@ import '../precios/precios.css';
 
 function Precios() {
     return (
-        <section>
+        <section className="precios">
             <div className="container_precios">
                 <h1 className="titulo" style={{margin:'0'}}>¿Cómo determinamos los precios del servicio?</h1>
                 <p style={{margin:'0', maxWidth:'1000px', paddingTop: '20px'}}>Se usan muchos puntos de datos para calcular la tarifa por adelantado.

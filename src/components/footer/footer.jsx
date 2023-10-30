@@ -1,6 +1,6 @@
 import React from "react";
 import './footer.css';
-import logo_nin from '../../assets/tata-nenes.png';
+import logo_nin from '../../assets/tata-2.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

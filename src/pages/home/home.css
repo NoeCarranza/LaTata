@@ -2,9 +2,8 @@
     background-image: url("../../assets/background1-1.jpg");
     background-repeat: no-repeat;
     margin: 0;
-    width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 100px 20px 20px 0;
     background-size:cover;
 
 }
@@ -13,9 +12,8 @@
     align-items: start;
     justify-content: end;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 40px;
     background-color: rgba(232, 125, 145);
-    width: 100%;
     max-width: 420px;
     height: 400px;
     margin: 40px 0 40px 100px;

@@ -7,10 +7,11 @@
     text-align: center;
     background-color: rgb(209, 229, 239);
     margin: 0;
+    padding-top: 100px;
 }
 
 .imagen-pasos{
-    width: 100%;
+    width: 80%;
     max-width: 1200px;
 }
 
@@ -24,7 +25,6 @@
     text-align: center;
     background-color: rgb(243, 187, 148);
     margin: 0;
-    width: 100%;
 }
 
 .reseñas{
@@ -39,7 +39,6 @@
 }
 
 .imagen-insignias{
-    width: 100%;
     max-width: 400px;
 }
 
@@ -78,7 +77,4 @@
     max-width: 500px;
 }
 
-.lista{
-    text-decoration: underline;
-}
 

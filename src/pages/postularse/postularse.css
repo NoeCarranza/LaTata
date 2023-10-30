@@ -1,23 +1,20 @@
 .container_postularse{
     display: flex;
-    width: 100%;
     background-color: rgb(181, 218, 237);
-    padding: 60px 0 60px 60px;
+    padding: 100px 0 60px 60px;
     flex-direction: column;
 }
 
 .postularse-encabezado{
-    padding: 0 40px 0 40px;
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     align-content: center;
 }
 
 .requisitos{
-    padding: 0 0 0 40px;
+    padding: 0 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Roboto',sans-serif;
@@ -25,12 +22,10 @@
     font-weight: 300;
     text-align: justify;
     margin: 0;
-    width: 100%;
 }
 
 .listas-requisitos{
-    width: 100%;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .subtitulo_postularse{
