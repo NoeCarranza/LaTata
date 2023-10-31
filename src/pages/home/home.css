@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 667px){
     .contenedor_menu{
         display: flex;
         flex-direction: column;
@@ -129,5 +129,7 @@
     .contenedor_qr{
         padding: 0;
         margin: 0;
+        height: 180px;
+        width: 180px;
     }
 }
