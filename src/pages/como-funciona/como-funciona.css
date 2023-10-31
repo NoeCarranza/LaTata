@@ -111,7 +111,7 @@
         font-size: 1rem;
     }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 667px){
 
     .container_como_funciona{
         padding: 100px 0 40px 58px;

@@ -145,7 +145,7 @@ p{
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 667px){
 
     .container_empresa{
         width: 100%;

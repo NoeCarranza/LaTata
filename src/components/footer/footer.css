@@ -145,7 +145,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 667px) {
     .container_footer {
         display: grid;
         grid-template-columns: 1fr;
