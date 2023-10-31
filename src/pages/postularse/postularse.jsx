@@ -1,8 +1,6 @@
 import React from "react";
 import '../postularse/postularse.css';
-import TextField from "@mui/material";
-import Button from "@mui/material";
-import personas from '../../assets/personas-unidas.png';
+import personas from '../../assets/equipo-la tata - copia.png';
 
 function Postularse() {
     return (

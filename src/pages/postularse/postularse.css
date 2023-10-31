@@ -11,10 +11,14 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    padding-left: 20px;
+    max-width: 1300px;
+    padding: 60px;
+    gap:20px;
 }
 
 .requisitos{
-    padding: 0 40px;
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Roboto',sans-serif;
@@ -45,7 +49,24 @@
     margin:0;
 }
 .personas{
-    width: 850px;
+    width: 800px;
+}
+.titulo-postularse{
+    text-align: start;
+    font-size: 3rem;
+    font-family: 'gabarito', sans-serif;
+    padding-bottom: 10px;
+}
+.titulo-postularse-2{
+    font-size: 2.5rem;
+    text-align: start;
+    font-family: 'gabarito', sans-serif;
+}
+.subtitulo-postularse{
+    font-size: 2rem;
+    padding-top: 0px;
+    margin: 0;
+    font-family: 'gabarito', sans-serif;
 }
 
 @media screen and (max-width: 768px){
@@ -69,7 +90,7 @@
     .postularse-encabezado{
         flex-direction: column-reverse;
         align-items: start;
-        padding-left: 60px;
+        padding: 0 0 20px 60px;
     }
     .personas{
         width: 90%;
@@ -82,6 +103,7 @@
     }
     .listas-requisitos{
         width: 100%;
+        margin: 0;
         max-width: 550px;
     }
     .postularse{
@@ -101,34 +123,39 @@
         text-align: center;
     }
     .container_postularse{
-        padding-top: 65px;
+        padding-top: 100px;
         padding-left: 55px;
     }
     .postularse-encabezado{
-        padding-left: 20px;
+        padding-left: 30px;
         text-align: center;
+        width: 100%;
+        max-width: 550px;
+        align-items: center;
     }
     .personas{
         width: 100%;
     }
  .requisitos{
     width: 100%;
-    max-width: 600px;
-    padding: 10px 40px;
+    max-width: 500px;
+    padding: 10px 60px;
     align-items: center;
  }
  .postularse{
-    padding-left: 20px;
-    text-align: center;
+    padding-left: 40px;
+    text-align: start;
+    width: 100%;
+    max-width: 500px;
     
  }
  .texto_postularse{
     width: 100%;
-    max-width: 460px;
+    max-width: 500px;
  }
  .subtitulo_postularse{
     width: 100%;
-    max-width: 460px;
+    max-width: 500px;
  }
 
  .listas-requisitos{
