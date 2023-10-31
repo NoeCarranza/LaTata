@@ -1,7 +1,11 @@
 .MuiButtonBase-root {
     font-family: 'Gabarito', sans-serif;
 }
-
+.MuiTextField-root, .MuiFormControl{
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gabarito' sans-serif;
+}
 .container_footer {
     background-color: #E87D91;
     display: flex;
@@ -70,7 +74,12 @@
 .firma {
     width: 80px;
 }
-
+.formulario_texto{
+    width: 350px;
+    background-color: #ffffff94;
+    border-radius:5px;
+    border-color:transparent;
+}
 @media screen and (max-width: 768px) {
 
     .container_footer {

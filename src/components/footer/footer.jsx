@@ -99,16 +99,14 @@ export default function Footer() {
                 <h2 className="subtitulo-footer">¿Te quedaste con alguna duda?</h2>
                 <h1 className="titulo-2">Contactanos:</h1>
                 <div className="form">
-                <TextField label="Nombre"/>
-                <TextField label="Email"/>
+                <TextField label="Nombre" className="formulario_texto"/>
+                <TextField label="Email" className="formulario_texto"/>
                 <TextField
                     id="outlined-multiline-static"
                     label="Mensaje"
                     multiline
+                    className="formulario_texto"
                     rows={4}
-                    sx={{
-                        width:'350px',
-                    }}
                 />
                 <Button className="redes"sx={{
                     fontFamily: 'Gabarito',
