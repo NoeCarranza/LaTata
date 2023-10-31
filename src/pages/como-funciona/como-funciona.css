@@ -119,16 +119,19 @@
 @media screen and (max-width: 667px){
 
     .container_como_funciona{
-        padding: 100px 0 40px 58px;
+        padding: 100px 0 40px 60px;
     }
     .imagen-pasos{
         width: 100%;
+        max-width: 500px;
+        align-self: center;
     }
     .calificaciones{
         padding: 40px 0 40px 58px;
     }
     .texto_calificaciones{
-        width: 500px;
+        width: 100%;
+        max-width: 480px;
         hyphens: auto;
     }
     .reseñas{
@@ -137,13 +140,15 @@
         
     }
     .imagen-insignias{
-        width: 60%;
+        width: 100%;
+        max-width: 300px;
         padding-top: 20px;
         grid-row: 2;
     }
     .regala-insignia{
         grid-row: 1;
-        width: 490px;
+        width: 100%;
+        max-width: 490px;
         hyphens: auto;
     }
     .lista, .lista-insignias{

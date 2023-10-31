@@ -50,18 +50,20 @@
 
 @media screen and (max-width: 768px){
     .titulo-postularse{
-        text-align: center;
+        text-align: start;
         font-size: 3rem;
         font-family: 'gabarito', sans-serif;
         padding-bottom: 10px;
     }
     .titulo-postularse-2{
         font-size: 2.5rem;
+        text-align: start;
         font-family: 'gabarito', sans-serif;
     }
     .subtitulo-postularse{
         font-size: 2rem;
-        padding-top: 10px;
+        padding-top: 0px;
+        margin: 0;
         font-family: 'gabarito', sans-serif;
     }
     .postularse-encabezado{
@@ -75,7 +77,7 @@
     .requisitos{
         display: flex;
         flex-direction: column;
-        padding: 0 20px 0 60px;
+        padding: 0 20px 0 40px;
         
     }
     .listas-requisitos{
@@ -84,15 +86,18 @@
     }
     .postularse{
         padding-left: 60px;
-        max-width: 630px;
+        max-width: 590px;
         hyphens: auto;
         text-align: justify;
+    }
+    .texto_postularse{
+        padding-top: 20px;
     }
 }
 
 @media screen and (max-width: 667px){
 
-    .titulo{
+    .titulo-postularse{
         text-align: center;
     }
     .container_postularse{
@@ -107,25 +112,31 @@
         width: 100%;
     }
  .requisitos{
-    width: 350px;
-    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 40px;
+    align-items: center;
  }
  .postularse{
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: center;
     
  }
  .texto_postularse{
-    max-width: 350px;
+    width: 100%;
+    max-width: 460px;
  }
  .subtitulo_postularse{
-    width: 350px;
+    width: 100%;
+    max-width: 460px;
  }
 
  .listas-requisitos{
     margin: 0;
-    padding: 0 25px;
-    max-width: 320px;
+    padding: 0%;
+    align-self: self-start;
+    max-width: 460px;
+    width: 100%;
     hyphens: auto;
  }
 }
