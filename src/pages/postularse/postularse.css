@@ -122,19 +122,24 @@
     .titulo-postularse{
         text-align: center;
     }
+
+    .titulo-postularse-2{
+        text-align: center;
+    }
     .container_postularse{
         padding-top: 100px;
         padding-left: 55px;
     }
     .postularse-encabezado{
-        padding-left: 30px;
+        padding:0;
         text-align: center;
         width: 100%;
         max-width: 450px;
         align-items: center;
     }
     .personas{
-        width: 100%;
+        width: 90%;
+        padding: 0;
     }
  .requisitos{
     width: 100%;
@@ -143,7 +148,7 @@
     align-items: center;
  }
  .postularse{
-    padding-left: 40px;
+    padding:0;
     text-align: start;
     width: 100%;
     max-width: 450px;
@@ -151,18 +156,20 @@
  }
  .texto_postularse{
     width: 100%;
-    max-width: 500px;
+    max-width: 280px;
+        padding-left: 40px;
  }
  .subtitulo_postularse{
     width: 100%;
-    max-width: 450px;
+    max-width: 280px;
+    padding-left: 40px;
  }
 
  .listas-requisitos{
     margin: 0;
     padding: 0%;
     align-self: self-start;
-    max-width: 450px;
+    max-width: 280px;
     width: 100%;
     hyphens: auto;
  }

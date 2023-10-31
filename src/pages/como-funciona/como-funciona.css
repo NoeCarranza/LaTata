@@ -123,7 +123,7 @@
     }
     .imagen-pasos{
         width: 100%;
-        max-width: 480px;
+        max-width: 420px;
         align-self: center;
     }
     .calificaciones{
@@ -131,7 +131,7 @@
     }
     .texto_calificaciones{
         width: 100%;
-        max-width: 450px;
+        max-width: 280px;
         hyphens: auto;
     }
     .reseñas{
@@ -141,14 +141,14 @@
     }
     .imagen-insignias{
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
         padding-top: 20px;
         grid-row: 2;
     }
     .regala-insignia{
         grid-row: 1;
         width: 100%;
-        max-width: 490px;
+        max-width: 280px;
         hyphens: auto;
     }
     .lista, .lista-insignias{
