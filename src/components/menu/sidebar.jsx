@@ -140,7 +140,7 @@ function MiniDrawer() {
           </Link>
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open} sx={{width:'40%'}}>
+      <Drawer variant="permanent" open={open} sx={{width:'50%'}}>
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}

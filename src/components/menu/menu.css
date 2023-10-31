@@ -30,7 +30,7 @@ a{
   .menu-toolbar {
     margin: 0;
     display: flex;
-    gap: 50%;
+    gap: 45%;
     height: 50px;
     background-color: rgb(4, 92, 122);
   }
@@ -56,39 +56,15 @@ a{
   .menu-toolbar {
     margin: 0;
     display: flex;
-    gap:0;
+    gap: 40%;
     height: 50px;
-    background-color: rgb(4, 92, 122);
-  }
-  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.menu-toolbar.css-hyum1k-MuiToolbar-root{
-    padding: 0 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 667px){
   .menu-toolbar {
     margin: 0;
-    display: flex;
-    gap:0;
+    gap:40%;
     height: 50px;
-    background-color: rgb(4, 92, 122);
   }
-  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.menu-toolbar.css-hyum1k-MuiToolbar-root{
-    padding: 0 20px;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .css-i6s8oy {
-    position: relative;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
-    min-height: 56px;
-    justify-content: space-between;
-}
 }

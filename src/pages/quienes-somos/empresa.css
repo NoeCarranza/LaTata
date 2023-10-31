@@ -167,7 +167,7 @@ p{
 .mision, .vision{
     padding: 20px 0 20px 60px;
 }
-.texto_empresa{
+.texto_empresa, .descripcion{
     width: 350px;
     font-size: 1.2rem;
 }
