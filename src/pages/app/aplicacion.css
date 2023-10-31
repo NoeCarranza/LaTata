@@ -30,8 +30,9 @@
 @media screen and (max-width: 768px){
     .container-app{
         flex-direction: row;
-        padding: 100px 20px 40px 70px;
+        padding: 80px 20px 40px 70px;
         gap:10px;
+        align-items: center;
     }
     .app{
         padding: 0;
@@ -39,15 +40,25 @@
     .img-celus{
         width: 300px;
     }
+    .botones-store{
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 667px){
     .container-app{
         flex-direction: column-reverse;
-        padding: 100px 20px 40px 70px;
+        padding: 100px 20px 40px 75px;
         gap:10px;
         text-align: center;
+        align-items: center;
+        display: flex;
     }
     .subtitulo-app{
         font-weight: 200;
+    }
+    .botones-store{
+        align-items: center;
+        justify-content: center;
     }
 }
