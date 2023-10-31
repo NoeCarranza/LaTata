@@ -134,7 +134,7 @@
         padding:0;
         text-align: center;
         width: 100%;
-        max-width: 450px;
+        max-width: 400px;
         align-items: center;
     }
     .personas{
@@ -143,7 +143,7 @@
     }
  .requisitos{
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     padding: 10px 60px;
     align-items: center;
  }
@@ -151,7 +151,7 @@
     padding:0;
     text-align: start;
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     
  }
  .texto_postularse{
