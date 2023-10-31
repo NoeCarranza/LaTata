@@ -33,18 +33,19 @@
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 0px;
     justify-items: center;
+    align-items: center;
 
 }
 .texto_calificaciones{
-    max-width: 800px;
+    max-width: 1000px;
     text-align:justify;
     padding: 0;
     margin: 0; 
 }
 .imagen-insignias{
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .regala-insignia{
@@ -97,18 +98,22 @@
     }
     .reseñas{
         padding: 40px 15px 40px 15px;
-        grid-template-columns: 0.5fr 1.5fr;
-        align-items: end;
+        grid-template-columns: 0.5fr 1fr;
+        align-items: start;
     }
     .imagen-insignias{
         padding-right: 5px;
-        width: 250px;
+        width: 210px;
     }
     .lista{
         font-size: 1.3rem;
     }
     .lista-insignias{
         font-size: 1rem;
+    }
+
+    .regala-insignia{
+        width: 350px;
     }
 }
 @media screen and (max-width: 667px){
@@ -123,7 +128,7 @@
         padding: 40px 0 40px 58px;
     }
     .texto_calificaciones{
-        width: 300px;
+        width: 500px;
         hyphens: auto;
     }
     .reseñas{
@@ -138,6 +143,8 @@
     }
     .regala-insignia{
         grid-row: 1;
+        width: 490px;
+        hyphens: auto;
     }
     .lista, .lista-insignias{
         padding-bottom: 5px;

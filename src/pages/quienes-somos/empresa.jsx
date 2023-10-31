@@ -2,8 +2,8 @@ import React from "react";
 import '../quienes-somos/empresa.css';
 import img1 from '../../assets/section1.jfif';
 import img2 from '../../assets/section2.jfif';
-import valores1 from '../../assets/valores1.png'
-import valores2 from '../../assets/valores2.png'
+import valores1 from '../../assets/valores-1.png'
+import valores2 from '../../assets/valores-2.png'
 
 function Empresa () {
     return(

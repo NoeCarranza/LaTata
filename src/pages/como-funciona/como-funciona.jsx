@@ -21,12 +21,13 @@ function ComoFunciona() {
                     Cuando finaliza el servicio se le solicitará que otorgue una calificación de entre 1 y 5 estrellas a la babysitter. Si así lo desea, se puede hacer clic en "Dejar un comentario" para enviar un mensaje anónimo. Si se elige asignar 3 estrellas o menos, se solicitará indicar el motivo de esa calificación.
                     Todas las calificaciones se mantienen anónimas y se presentan en forma compilada. Ni las calificaciones de la babysitter ni las de los usuarios se comparten con terceros.
                 </p>
+                <div><h3 className="titulo">También podés regalar insignias:</h3></div>
                 <div className="reseñas">
                     <div>
                         <img src={insignias} alt="cuadro demostrativo de las insignias" className="imagen-insignias"></img>
                     </div>
+                    
                     <div className="regala-insignia">
-                        <h3 className="titulo">También podés regalar insignias:</h3>
                         <ul class="custom-list">
                             <li className="lista">Cariñosa-Empática: </li><p className="lista-insignias">¿La babysitter mostró una atención amorosa, paciencia, empatía afectuosa hacia tu hijo/a?</p>
                             <li className="lista">Buena comunicación: </li><p className="lista-insignias">¿La babysitter se comunicó de manera efectiva contigo y/o con tu hijo/a?</p>
