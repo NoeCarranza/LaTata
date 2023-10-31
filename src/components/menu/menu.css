@@ -2,7 +2,6 @@
 a{
     text-decoration: none;
     color: inherit; 
-    width: 100%;
   }
 
 /* {
@@ -26,18 +25,12 @@ a{
     color: white; 
     box-shadow: none;
     border: solid 1px black; 
-    width: 100%;
   }
 
-
   .menu-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0;
-    padding: 5px;
-    width: 100%;
-    gap: 60px;
+    display: flex;
+    gap: 50%;
     height: 50px;
     background-color: rgb(4, 92, 122);
   }
@@ -60,5 +53,33 @@ a{
 
 
 @media screen and (max-width: 768px){
-  
+  .menu-toolbar {
+    margin: 0;
+    display: flex;
+    gap:0;
+    height: 50px;
+    background-color: rgb(4, 92, 122);
+  }
+  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.menu-toolbar.css-hyum1k-MuiToolbar-root{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 667px){
+  .menu-toolbar {
+    margin: 0;
+    display: flex;
+    gap:0;
+    height: 50px;
+    background-color: rgb(4, 92, 122);
+  }
+  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.menu-toolbar.css-hyum1k-MuiToolbar-root{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

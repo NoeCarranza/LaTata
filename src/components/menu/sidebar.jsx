@@ -21,8 +21,8 @@ import { Link } from 'react-router-dom';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
+import { useMediaQuery } from '@mui/material';
 import "../menu/menu.css";
-
 
 
 const drawerWidth = 240;
@@ -121,7 +121,7 @@ function MiniDrawer() {
 
   return (
     <div className="menu">
-      <AppBar open={open} className='appbar-menu'>
+      <AppBar open={open} className='appbar-menu' sx={{color:'black'}}>
         <Toolbar className='menu-toolbar'>
           <IconButton
             color="inherit"
