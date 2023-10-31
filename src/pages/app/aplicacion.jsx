@@ -13,7 +13,7 @@ function Aplicacion() {
             <div className="app">
                 <div>
                     <h1 className="titulo" style={{ padding: '20px', margin: '0' }}>El cuidado infantil siempre al alcance de nuestra aplicación</h1>
-                    <h2 className="subtitulo" style={{ paddingLeft: '20px', margin: '0' }}>Encontrá rápidamente una babysitter disponible las 24 horas los 7 días de la semana a través de nuestra app.</h2>
+                    <h2 className="subtitulo-app" style={{ paddingLeft: '20px', margin: '0' }}>Encontrá rápidamente una babysitter disponible las 24 horas los 7 días de la semana a través de nuestra app.</h2>
                 </div>
                 <div className="botones-store">
                     <Button startIcon={<AppleIcon />}

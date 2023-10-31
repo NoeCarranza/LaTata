@@ -23,3 +23,31 @@
 .img-celus{
     width: 650px;
 }
+.subtitulo-app{
+    font-family: 'gabarito',sans-serif;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 768px){
+    .container-app{
+        flex-direction: row;
+        padding: 100px 20px 40px 70px;
+        gap:10px;
+    }
+    .app{
+        padding: 0;
+    }
+    .img-celus{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 425px){
+    .container-app{
+        flex-direction: column-reverse;
+        padding: 100px 20px 40px 70px;
+        gap:10px;
+        text-align: center;
+    }
+    .subtitulo-app{
+        font-weight: 200;
+    }
+}
