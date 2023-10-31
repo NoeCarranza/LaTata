@@ -39,6 +39,9 @@ p{
     text-align: center;
 }
 
+.texto_empresa{
+    width: 800px;
+}
 
 .img{
     height: 350px;
@@ -84,4 +87,94 @@ p{
     padding: 40px;
     text-align: center;
     background-color: rgb(181, 218, 237);
+}
+
+@media screen and (max-width: 768px) {
+    .quienes_somos{
+        padding: 100px 20px 40px 80px;
+    }
+    .titulo{
+        padding: 20px;
+        margin: 0;
+    }
+    .descripcion{
+            font-size: 1.3rem;
+            padding: 0 20px;
+            margin: 0;
+    }
+    .section-img-texto{
+        width: 300px;
+        height: 419px;
+    }
+    .img_texto{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        padding-left: 65px;
+        margin: 0;
+    }
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+    .texto_empresa{
+        font-size: 1.3rem;
+        width: 650px;
+    }
+    .mision, .vision{
+        padding-left: 75px;
+        align-items: center;
+    }
+    p{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .valores{
+        padding: 40px 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .valores-img{
+        grid-template-columns: 1fr;
+    }
+
+    .valores1{
+        padding: 20px;
+
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .container_empresa{
+        width: 100%;
+    }
+.quienes_somos{
+    padding: 100px 0 20px 60px;
+}
+.img{
+    padding-bottom: 10px;
+}
+.img_texto{
+    grid-template-columns: 1fr;
+    padding: 20px 0 20px 60px;
+}
+.section-img-texto{
+    padding-bottom: 20px;
+}
+.mision, .vision{
+    padding: 20px 0 20px 60px;
+}
+.texto_empresa{
+    width: 350px;
+    font-size: 1.2rem;
+}
+
+.valores{
+    align-items: center;
+    padding-left: 20px;
+
+}
+
 }

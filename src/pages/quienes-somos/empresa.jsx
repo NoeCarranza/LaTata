@@ -24,11 +24,11 @@ function Empresa () {
             </div>
             <div className="mision">
                 <h1 className="titulo">Nuestra misión</h1>
-                <p style={{width: '800px',}}>Proporcionar un servicio de cuidado de niños en el hogar a través de una aplicación, que ofrece un acceso innovador, cómodo y práctico de contratación simple, proporcionando perfiles de cuidadores calificados, que brindan un servicio seguro y de calidad para que los papás encuentren  tranquilidad y seguridad en nuestro servicio sabiendo  que sus hijos estarán en buenas manos mientras están ausentes.</p>
+                <p className="texto_empresa">Proporcionar un servicio de cuidado de niños en el hogar a través de una aplicación, que ofrece un acceso innovador, cómodo y práctico de contratación simple, proporcionando perfiles de cuidadores calificados, que brindan un servicio seguro y de calidad para que los papás encuentren  tranquilidad y seguridad en nuestro servicio sabiendo  que sus hijos estarán en buenas manos mientras están ausentes.</p>
             </div>
             <div className="vision">
                 <h1 className="titulo">Nuestra visión</h1>
-                <p style={{width: '800px',}}>Ser el líder en el mercado regional ofreciendo una solución innovadora y confiable para el cuidado de niños en el hogar.</p>
+                <p className="texto_empresa">Ser el líder en el mercado regional ofreciendo una solución innovadora y confiable para el cuidado de niños en el hogar.</p>
             </div>
             <div className="valores">
                 <div>
