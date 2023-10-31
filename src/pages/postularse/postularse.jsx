@@ -9,9 +9,9 @@ function Postularse() {
         <section className="container_postularse">
             <div className="postularse-encabezado">
                 <div>
-                    <h1 className="titulo" style={{ margin: '0', padding: '0' }}>Quiero formar parte</h1>
-                    <h2 className="titulo-2" style={{ margin: '0', padding: '0' }}>Requisitos para postularse:</h2>
-                    <h3 className="subtitulo" style={{ paddingTop: '20px' }}>Babysitter</h3>
+                    <h1 className="titulo-postularse" style={{ margin: '0', padding: '0' }}>Quiero formar parte</h1>
+                    <h2 className="titulo-postularse-2" style={{ margin: '0', padding: '0' }}>Requisitos para postularse:</h2>
+                    <h3 className="subtitulo-postularse" style={{ paddingTop: '20px' }}>Babysitter</h3>
                 </div>
                 <img src={personas} alt="trabajadores" className="personas"></img>
             </div>
@@ -34,9 +34,9 @@ function Postularse() {
                 </ul>
             </div>
             <div className="postularse">
-                <h1 className="titulo-2">Postularse:</h1>
+                <h1 className="titulo-postularse-2">Postularse:</h1>
                 <h2 className="subtitulo_postularse">Si creés que ténes todos los requisitos y querés trabajar para nosotros mandanos tu CV con el asunto: "Babysitter con tu nombre" al mail latata@postulaciones.com</h2>
-                <p style={{fontSize: '16px', fontWeight: '300', paddingTop: '5px', margin: '0',}}>Si tenés alguna duda podés enviarnos un mensaje en el formulario debajo.</p>
+                <p className="texto_postularse">Si tenés alguna duda podés enviarnos un mensaje en el formulario debajo.</p>
             </div>
 
         </section>

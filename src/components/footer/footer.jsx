@@ -89,14 +89,14 @@ export default function Footer() {
                     </Button>
                 </div>
                 <div className="diseñado">
-            <h2 className="subtitulo">Diseñado por:</h2>
+            <h2 className="subtitulo-footer">Diseñado por:</h2>
             <img src={firma} alt='firma' className="firma"/>
 
             </div>
             </div>
             
             <div className="container-form">
-                <h2 className="subtitulo">¿Te quedaste con alguna duda?</h2>
+                <h2 className="subtitulo-footer">¿Te quedaste con alguna duda?</h2>
                 <h1 className="titulo-2">Contactanos:</h1>
                 <div className="form">
                 <TextField label="Nombre"/>
