@@ -36,12 +36,13 @@
 @media screen and (max-width: 667px){
     .container_precios{
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
         align-items: center;
+        justify-content: center;
     }
     .texto-precios{
         margin:0; 
-        max-width:400px;
+        max-width:350px;
         padding-top: 20px;
     }
 }
