@@ -78,8 +78,17 @@ a{
   }
   .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.menu-toolbar.css-hyum1k-MuiToolbar-root{
     padding: 0 20px;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .css-i6s8oy {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 56px;
+    justify-content: space-between;
+}
 }
