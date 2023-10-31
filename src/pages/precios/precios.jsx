@@ -5,8 +5,8 @@ function Precios() {
     return (
         <section className="precios">
             <div className="container_precios">
-                <h1 className="titulo" style={{margin:'0'}}>¿Cómo determinamos los precios del servicio?</h1>
-                <p style={{margin:'0', maxWidth:'1000px', paddingTop: '20px'}}>Se usan muchos puntos de datos para calcular la tarifa por adelantado.
+                <h1 className="titulo-precios">¿Cómo determinamos los precios del servicio?</h1>
+                <p className="texto-precios">Se usan muchos puntos de datos para calcular la tarifa por adelantado.
                     Las tarifas por adelantado dependen de la distancia y la duración estimadas del servicio. La estimación puede variar según la demanda y factores reales.
                     <br/>
                     <br/>

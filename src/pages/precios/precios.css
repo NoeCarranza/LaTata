@@ -9,4 +9,24 @@
     justify-content: center;
     text-align: justify;
 }
+.titulo-precios{
+    font-family: 'gabarito',sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+.texto-precios{
+    margin:0; 
+    max-width:1000px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px){
+    .container_precios{
+        padding: 100px 20px 60px 75px;
+        max-width: 650px;
+    }
+}
 
+@media screen and (max-width: 425px){
+
+}
