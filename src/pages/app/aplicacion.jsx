@@ -1,6 +1,6 @@
 import React from "react";
 import '../app/aplicacion.css'
-import { styled } from '@mui/material/styles';
+import { Link } from "react-router-dom";
 import AppleIcon from '@mui/icons-material/Apple';
 import Button from '@mui/material/Button';
 import ShopTwoIcon from '@mui/icons-material/ShopTwo';
@@ -16,6 +16,7 @@ function Aplicacion() {
                     <h2 className="subtitulo-app" style={{ paddingLeft: '20px', margin: '0' }}>Encontrá rápidamente una babysitter disponible las 24 horas los 7 días de la semana a través de nuestra app.</h2>
                 </div>
                 <div className="botones-store">
+                    <Link to='https://www.figma.com/proto/YM6MYpfq8bK1aNDuGjWOxb/La-Tata-App?page-id=0%3A1&type=design&node-id=213-11792&viewport=3052%2C1532%2C0.15&t=QkjfvbU621jIzwoF-1&scaling=min-zoom&starting-point-node-id=213%3A11493&mode=design'>
                     <Button startIcon={<AppleIcon />}
                         sx={{
                             backgroundColor: '#E87D91',
@@ -39,6 +40,8 @@ function Aplicacion() {
                         }}>
                         Apple Store
                     </Button>
+                    </Link>
+                    <Link to='https://www.figma.com/proto/YM6MYpfq8bK1aNDuGjWOxb/La-Tata-App?page-id=0%3A1&type=design&node-id=213-11792&viewport=3052%2C1532%2C0.15&t=QkjfvbU621jIzwoF-1&scaling=min-zoom&starting-point-node-id=213%3A11493&mode=design'>
                     <Button startIcon={<ShopTwoIcon />}
                         sx={{
                             backgroundColor: '#E87D91',
@@ -62,6 +65,7 @@ function Aplicacion() {
                         }}>
                         Play Store
                     </Button>
+                    </Link>
                 </div>
             </div>
             <div>
