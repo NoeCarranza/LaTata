@@ -85,6 +85,7 @@
     }
     .contenedor_qr{
         margin: 0;
+        width: 170px;
     }
 }
 
@@ -129,7 +130,7 @@
     .contenedor_qr{
         padding: 0;
         margin: 0;
-        height: 180px;
-        width: 180px;
+        height: 140px;
+        width: 140px;
     }
 }
